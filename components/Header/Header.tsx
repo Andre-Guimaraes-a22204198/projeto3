@@ -5,11 +5,19 @@ import styles from './Header.module.css';
 export default function Header() {
   return (
     <header className={styles.header}>
-      <h1>React & Next.js</h1>
+      <h1>Minha Loja</h1>
       <nav className={styles.nav}>
-        <Link href="/">Home</Link>
-        <Link href="/produtos">Produtos</Link>
-        <Link href="/tecnologias">Tecnologias</Link>
+        <ul>
+          <li>
+            <Link href="/">Home</Link>
+          </li>
+          <li>
+            <Link href="/produtos">Produtos</Link>
+          </li>
+          <li>
+            <Link href="/tecnologias">Tecnologias</Link>
+          </li>
+        </ul>
       </nav>
     </header>
   );

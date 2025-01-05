@@ -1,26 +1,31 @@
 .header {
   padding: 20px;
+  background-color: #4a148c;
   color: white;
-  font-weight: bold;
   text-align: center;
 }
 
 .header h1 {
   margin-bottom: 10px;
-  font-size: 3em;
+  font-size: 2rem;
 }
 
-.nav {
-  width: 100%;
+.nav ul {
+  list-style: none;
   display: flex;
-  flex-direction: row;
   justify-content: center;
-  gap: 30px;
+  gap: 20px;
+  padding: 0;
+}
+
+.nav li {
+  display: inline;
 }
 
 .nav a {
-  text-decoration: none;
   color: white;
+  text-decoration: none;
+  font-size: 1rem;
 }
 
 .nav a:hover {
